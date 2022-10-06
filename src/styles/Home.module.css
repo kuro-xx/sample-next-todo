@@ -1,0 +1,67 @@
+.panel {
+  margin: 2em 0;
+  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.panelHeader {
+  padding: 0.5em 1em;
+  background-color: #FEDD87;
+}
+.panelHeader > *:first-child {
+  margin-top: 0;
+}
+.panelHeader > *:last-child {
+  margin-bottom: 0;
+}
+
+.inputField {
+  padding: 1em 0.5em;
+  border-bottom: 1px solid grey;
+}
+.input {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.todoStatus {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0 0.5em;
+  border-bottom: 1px solid grey;
+}
+.todoList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.todoListItem {
+  padding: 0.5em;
+  border-bottom: 1px solid grey;
+}
+.todoFooter {
+  padding: 0.5em;
+}
+
+.statusButton {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  cursor: pointer;
+  padding: 1em 0.5em;
+  color: blue;
+}
+
+.heading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
